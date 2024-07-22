@@ -240,7 +240,7 @@ def read_sdxl_templates_replace_and_combine_advanced(json_data, template_name, p
         return positive_prompt_g, positive_prompt_l, f"{positive_prompt_g} . {positive_prompt_l}", negative_prompt, negative_prompt, negative_prompt
 
 
-class SDXLPromptStyler:
+class SDXLPromptSport:
 
     def __init__(self):
         pass
@@ -295,7 +295,7 @@ class SDXLPromptStyler:
 
         return text_positive_styled, text_negative_styled
     
-class SDXLPromptStylerAdvanced:
+class SDXLPromptSportAdvanced:
 
     def __init__(self):
         pass
@@ -346,11 +346,11 @@ class SDXLPromptStylerAdvanced:
 
 
 NODE_CLASS_MAPPINGS = {
-    "SDXLPromptStyler": SDXLPromptStyler,
-    "SDXLPromptStylerAdvanced": SDXLPromptStylerAdvanced,
+    "SDXLPromptSport": SDXLPromptSport,
+    "SDXLPromptSportAdvanced": SDXLPromptSportAdvanced,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "SDXLPromptStyler": "SDXL Prompt Styler",
-    "SDXLPromptStylerAdvanced": "SDXL Prompt Styler Advanced",
+    "SDXLPromptSport": "SDXL Prompt Sport",
+    "SDXLPromptSportAdvanced": "SDXL Prompt Sport Advanced",
 }
